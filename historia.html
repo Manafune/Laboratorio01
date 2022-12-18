@@ -7,8 +7,132 @@
     <title>Document</title>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="css/menu-bar.css">
+    <link rel="stylesheet" href="css/historia.css">
+
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="index.html" class="enlace">
+                <img src="img/logo/Logo_sin_slogan-removebg-preview.png" alt="" class="logo">
+            </a>
+            <ul class="menu">
+                <li><a class="active" href="">Inicio</a></li>
+                <li><a href="instrumentos.html">Instrumentos</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="contactos.html">Contactos</a></li>
+                <li><a href="">Login</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <section class="card1">
+        <div class="slider">
+            <div class="slider-track">
+                <div class="slide">
+                    <img src="img/historia/ca1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/historia/ca2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/historia/ca3.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/historia/ca4.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/historia/ca5.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/historia/ca6.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/historia/ca7.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/historia/ca8.jpg" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="img/historia/ca1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/historia/ca2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/historia/ca3.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/historia/ca4.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/historia/ca5.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/historia/ca6.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/historia/ca7.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/historia/ca8.jpg" alt="">
+                </div>
+            </div>     
+        </div>
+        <div class="text1">
+            <h2>
+                HISTORIA DE LOS ANDES MUSICALES
+            </h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, quibusdam doloremque, eaque perspiciatis natus corrupti fuga veniam blanditiis architecto magni dicta exercitationem amet aspernatur officiis autem incidunt quis aliquam eveniet.</p>
+        </div>
+    </section>
+    <script>
+        function showDiv1(){
+            document.getElementById('div1').style.display = '';
+            document.getElementById('div2').style.display = 'none';
+            document.getElementById('div3').style.display = 'none';
+        }
+    </script>
+    <script>
+        function showDiv2(){
+            document.getElementById('div1').style.display = 'none';
+            document.getElementById('div2').style.display = '';
+            document.getElementById('div3').style.display = 'none';
+        }
+    </script>
+    <script>
+        function showDiv3(){
+            document.getElementById('div1').style.display = 'none';
+            document.getElementById('div2').style.display = 'none';
+            document.getElementById('div3').style.display = '';
+        }
+    </script>
+    <section>
+        <input type="submit" value="Acrofonos" onclick="showDiv1()"><a> | </a><br>
+        <input type="submit" value="Aerofonos" onclick="showDiv2()"><a> | </a><br>
+        <input type="submit" value="Jototo" onclick="showDiv3()">
+        <div id="div1" style="">
+            seguros <br>
+            sssss <br>
+            ssssssssss <br>
+            ppdpdpdpd <br>
+        </div>
+        <div id="div2" style="display: none;">
+            seguros 122222<br>
+            sssss <br>
+            ssssssssss <br>
+            ppdpdpdpd <br>
+            
+        </div>
+        <div id="div3" style="display: none;">
+            seguros 2333333<br>
+            sssss <br>
+            ssssssssss <br>
+            ppdpdpdpd <br>
+        </div>
+    </section>
+    
     <ion-icon name="logo-facebook"></ion-icon>
 </body>
 </html>
