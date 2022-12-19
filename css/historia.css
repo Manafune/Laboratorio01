@@ -1,3 +1,6 @@
+body {
+    background-color: #FFB333 ;
+}
 .card1 {
     display: flex;
     margin-top: 20px;
