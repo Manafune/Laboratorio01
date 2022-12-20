@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 h1{
     text-align: center;
@@ -31,7 +33,9 @@ p,a{
     width: 500px;
     height: 300px;
 }
-
+.superior{
+    width: 100%;
+}
 .articles1 {
     width:58.5%;
     margin-top:20px;
@@ -44,6 +48,57 @@ p,a{
     float:right;
     box-sizing:border-box;
     padding: 20px;
+}
+
+#Carrusel{
+    border: 5px solid #000000;
+    height: 280px;
+    overflow: hidden;
+    width: 100%;
+}
+.itemcarrusel{
+    border: 1px solid #000000;
+    height: 100%;
+    position: relative;
+}
+
+.tarjetaCarrusel{
+    height: 100%;
+}
+
+.flechasCarrusel{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+#tarjetaCarrusel-1{
+    background-color: aqua;
+}
+
+#tarjetaCarrusel-2{
+    background-color: antiquewhite;
+}
+
+#tarjetaCarrusel-3{
+    background-color: aquamarine;
+}
+a{
+    text-decoration: none;
+}
+#contenedorcarrusel{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-carrusel{
+    width: 100%;
+    height: 100%;
 }
 
 .articles2{
