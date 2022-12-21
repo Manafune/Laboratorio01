@@ -8,9 +8,11 @@
 }
 body{
     width: 100%;
-    height: 100%;
     letter-spacing: 0.03em;
     line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 h1{
     text-align: center;
@@ -20,9 +22,11 @@ h1{
 }
 h2{
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 p,a{
     font-family: 'Lato', sans-serif;
+    text-align: justify;
 }
 
 .cont_banner{
@@ -39,19 +43,22 @@ p,a{
     width: 500px;
     height: 300px;
 }
-.superior{
+.Caja1{
+    width: 100%;
+    margin-top: 20px;
+}
+.Caja2{
     width: 100%;
 }
 .articles1 {
     width:58.5%;
-    margin-top:20px;
+    margin-top:70px;
     float:right;
     padding:20px
 }
 
 .img_article1{
     width:40%;
-    float:right;
     box-sizing:border-box;
     padding: 20px;
 }
@@ -61,7 +68,10 @@ p,a{
     height: 280px;
     overflow: hidden;
     width: 50%;
-    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .itemcarrusel{
     border: 1px solid #000000;
@@ -84,17 +94,6 @@ p,a{
     padding: 24px;
 }
 
-#tarjetaCarrusel-1{
-    
-}
-
-#tarjetaCarrusel-2{
-    
-}
-
-#tarjetaCarrusel-3{
-    
-}
 a{
     text-decoration: none;
 }
@@ -106,7 +105,7 @@ a{
 
 .articles2{
     width:58.5%;
-    margin-top:20px;
+    margin-top:30px;
     float:left;
     padding:20px
 }
@@ -114,14 +113,14 @@ a{
 .img_article2{
     width:40%;
     float:left;
-    margin-top:20px;
+    padding:20px;
     box-sizing:border-box;
 }
 
 .container{
     width: 100%;
     max-width: 1200px;
-    height: 500px;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -129,12 +128,12 @@ a{
 }
 
 .container .card{
-    width: 330px;
+    width: 430px;
     height: 430px;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    margin: 20px 50px;
+    margin: 50px 50px;
     text-align: center;
     transition: all 0.25s;
 }
@@ -145,7 +144,7 @@ a{
 }
 
 .container .card .img-card{
-    width: 330px;
+    width: 430px;
     height: 220px;
 }
 
@@ -161,8 +160,8 @@ a{
 
 .Contenedor-enlaces{
     width: 100%;
-    max-width: 1200px;
-    height: 430px;
+    max-width: 1800px;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -172,10 +171,8 @@ a{
 .Contenedor-enlaces .card-enlace{
     width: 330px;
     height: 430px;
-    overflow: hidden;
-    margin: 20px;
+    margin: 50px 80px;
     text-align: center;
-    transition: all 0.25s;
 }
 
 .img-enlace{
@@ -185,26 +182,64 @@ a{
 }
 
 .txt-enlace{
+    background-color: rgba(0, 0, 0, 0.199);
+    border-radius: 50px;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .ico-enlace{
     width: 40px;
     height: 40px;
+    margin-left: 10px;
+}
+
+.pie-pagina{
+    background-color:#4D0000;
+    color:#fff;
+    padding:10px;
+    margin-top: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+
+.pie-pagina .logo-pie{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .logo-pie img{
+    width: 180px;
+}
+
+.txt-footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rs{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ico-rs{
     width: 50px;
     height: 50px;
+    margin: 0 10px;
+    padding: 3px;
 }
 
-footer{
-    background-color:#4D0000;
-    color:#fff;
-    clear:both;
-    padding:10px;
-    text-align:center;
-}
+
 
 @media (max-width: 1920px) {
     .intro, .mision_vision{
