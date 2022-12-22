@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+body{
+    width: 100%;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #FFB333 ;
+}
+
 /* Carrusel css */
 #conteItemsCarrusel{
     height: 200px;
@@ -78,8 +88,8 @@ h4{
 }
 
 .ima{
-    width: 150px;
-    height: 150px;
+    width: auto;
+    height: auto;
     align-items: center;
     display: flex;
 }
@@ -98,4 +108,48 @@ h4{
     color: rebeccapurple;
     float: right;
     font-size: 18px;
+}
+
+/* Footer */
+.pie-pagina {
+    background-color: #400000;
+    color: #fff;
+    padding: 10px;
+    margin-top: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+
+.pie-pagina .logo-pie {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .logo-pie img {
+    width: 180px;
+}
+
+.txt-footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ico-rs{
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    padding: 3px;
 }
