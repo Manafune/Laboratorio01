@@ -72,7 +72,7 @@ nav ul li ol li a {
 }
 
 li a.active, li a:hover{
-    background: #000090;
+    background: #e47105;
     transition: .5s;
 }
 
