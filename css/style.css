@@ -26,6 +26,7 @@ h2{
 }
 p,a{
     font-family: 'Lato', sans-serif;
+    font-size: 1em;
     text-align: justify;
 }
 
@@ -63,44 +64,14 @@ p,a{
     padding: 20px;
 }
 
-#Carrusel{
-    border: 5px solid #000000;
-    height: 280px;
-    overflow: hidden;
+.carrusel{
     width: 50%;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.itemcarrusel{
-    border: 1px solid #000000;
-    height: 100%;
-    position: relative;
-}
-
-.tarjetaCarrusel{
-    height: 100%;
-}
-
-.flechasCarrusel{
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 24px;
+    margin: auto;
 }
 
 a{
     text-decoration: none;
-}
-
-.img-carrusel{
-    width: 100%;
-    height: 100%;
+    font-weight: bold;
 }
 
 .articles2{
@@ -187,6 +158,11 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 10px;
+}
+
+.txt-enlace a{
+    font-weight: bold;
 }
 
 .ico-enlace{
@@ -227,7 +203,6 @@ a{
 
 .rs{
     display: flex;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -239,11 +214,83 @@ a{
     padding: 3px;
 }
 
-
-
+@media (max-width: 3840px) {
+    .intro, .mision_vision{
+        width: 100%;
+    }
+    .articles1{
+        margin-top: 30px;
+    }
+}
+@media (max-width: 2560px) {
+    .intro, .mision_vision{
+        width: 100%;
+    }
+    .articles1{
+        margin-top: 30px;
+    }
+}
 @media (max-width: 1920px) {
     .intro, .mision_vision{
         width: 100%;
     }
-
+    .articles1{
+        margin-top: 30px;
+    }
+}
+@media (max-width: 1525px) {
+    .articles1{
+        margin-top: 20px;
+    }
+    .articles2{
+        margin-top: 10px;
+    }
+}
+@media (max-width: 1185px) {
+    .articles1{
+        margin-top: 10px;
+    }
+    .articles2{
+        margin-top: 0px;
+    }
+}
+@media (max-width: 1080px) {
+    .intro, .mision_vision {
+        height: 400px;
+    }
+    .articles2{
+        margin-top: 30px;
+    }
+}
+@media (max-width: 800px) {
+    .articles1{
+        width: auto;
+        float: none;
+        margin-top: 0px;
+    }
+    .img_article1{
+        width: auto;
+        float: none;
+    }
+    .articles2{
+        width: auto;
+        float: none;
+    }
+    .img_article2{
+        width: auto;
+        float: none;
+    }
+    .pie-pagina{
+        display: block;
+    }
+    .pie-pagina .logo-pie {
+        margin-bottom: 10px;
+    }
+    .carrusel{
+        width: 90%;
+        margin: auto;
+    }
+    .Contenedor-enlaces .card-enlace {
+        margin: auto;
+    }
 }
