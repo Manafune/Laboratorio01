@@ -115,6 +115,8 @@ img {
 
 button {
     text-align: center;
+    border: none;
+    background-color: antiquewhite;
 }
 .arre {
     display: flex;
