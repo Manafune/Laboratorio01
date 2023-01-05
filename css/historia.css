@@ -113,6 +113,9 @@ img {
     padding: 3px;
 }
 
+button {
+    text-align: center;
+}
 .arre {
     display: flex;
     padding-left: 50px;
@@ -139,4 +142,11 @@ p {
 
 br {
     background-color: antiquewhite;
+}
+
+#links {
+    display: flex;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
 }
