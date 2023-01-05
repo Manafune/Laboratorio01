@@ -15,8 +15,8 @@ body {
 }
 
 .slider {
-    width: 50vw;
-    height: 50vw;
+    width: 50%;
+    height: 330px;
     margin-right: 10px;
     overflow: hidden;
 }
@@ -49,19 +49,26 @@ body {
 
 .text1 {
     margin-left: 10px;
-    width: 50vw;
-    height: 50vw;
+    width: 50%;
+    height: 330px;
 }
 
-.h2 {
+h2 {
     text-align: center;
+
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
+.container {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+}
 /* Footer */
 .pie-pagina{
     background-color: #400000;
@@ -104,4 +111,42 @@ img {
     height: 50px;
     margin: 0 10px;
     padding: 3px;
+}
+
+button {
+    text-align: center;
+}
+.arre {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: antiquewhite;
+}
+.div11 {
+    display: flex;
+    margin: 50px;
+}
+
+.iz {
+    width: 50%;
+}
+
+.de {
+    width: 50%;
+    background-color: antiquewhite;
+}
+
+p {
+    text-align: justify;
+}
+
+br {
+    background-color: antiquewhite;
+}
+
+#links {
+    display: flex;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
 }
