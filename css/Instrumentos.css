@@ -21,6 +21,11 @@ body{
     padding: 6px;
     box-sizing: border-box;
 }
+/*Subtitulo*/
+.tipo{
+    text-align: center;
+}
+/*Fin Subtitulo*/
 /*Izquierda div y derecha div css*/
 .post{
     display: flex;
