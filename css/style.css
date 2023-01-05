@@ -13,6 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #FFB333;
 }
 h1{
     text-align: center;
@@ -165,7 +166,7 @@ a{
 }
 
 .txt-enlace{
-    background-color: rgba(0, 0, 0, 0.199);
+    background-color: rgba(135, 134, 134, 0.799);
     border-radius: 50px;
     display: flex;
     align-items: center;

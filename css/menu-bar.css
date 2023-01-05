@@ -9,10 +9,12 @@
 nav{
     background: #4D0000;
     opacity: 0.95;
-    height: 90px;
+    height: 100px;
     width: 100%;
 }
-
+header{
+    height: 100px;
+}
 .enlace{
     position: absolute;
     padding: 15px 50px;
@@ -27,6 +29,7 @@ nav{
 nav ul{
     float: right;
     margin-right: 20px;
+    margin-top: 7px;
 }
 
 nav ul li{
