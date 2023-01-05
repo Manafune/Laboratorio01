@@ -25,7 +25,6 @@ body{
 .post{
     display: flex;
     padding: 10%;
-    align-self: center;
 }
 
 .pl{
@@ -162,7 +161,7 @@ h4{
 /* Video css*/
 .vid{
     width: auto;
-    height: 94%;
+   
 }
 /* Fin Video css*/
 
