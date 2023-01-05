@@ -138,12 +138,24 @@ a{
     justify-content: center;
     margin: auto;
 }
-
+/*Key Frame*/
+@keyframes escalar{
+    from{
+        transform: scale(0.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+/*Fin Key Frame*/
 .Contenedor-enlaces .card-enlace{
     width: 330px;
     height: 430px;
     margin: 50px 80px;
     text-align: center;
+    animation-name: escalar;
+    animation-iteration-count: 3;
+    animation-duration: 5s;
 }
 
 .img-enlace{
