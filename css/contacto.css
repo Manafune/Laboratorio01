@@ -54,7 +54,7 @@ h4, label, p{
 .formulario{
     padding: 10px;
     align-content: center;
-    border-style: groove;
+    border-style: solid;
     border-radius: 15px;
     border-color: #000000;
     margin: 5px;
@@ -89,7 +89,6 @@ h4, label, p{
 }
 
 .div1{
-    background-color: teal;
     gap: 1em;
 }
 
@@ -102,6 +101,19 @@ h4, label, p{
     height: 120px;
     width: auto;
 }
+#uno{
+    width: 134px;
+    border-radius: 35px;
+}
+#dos{
+    width: 135px;
+    border-radius: 35px;
+}
+#tres{
+    background-color: #FFFFFF;
+    width: 135px;
+    border-radius: 35px;
+}
 .l-rs{
     text-decoration: none;
     align-items: center;
@@ -110,6 +122,26 @@ h4, label, p{
 .l-rs:hover{
     color: aqua;
 }
+/*Fin Division*/
+/* Mapa */
+.mapa{
+    margin: 15px;
+    padding: 2px;
+    display: flex;
+    align-items: flex-end;
+}
+.mp-rs{
+    width: 150px;
+    height: 150px;
+    
+}
+.txt-mapa{
+    width: 12%;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: justify;
+}
+/* Fin Mapa*/
 /* Footer */
 .pie-pagina {
     background-color: #400000;
