@@ -1,23 +1,10 @@
-.enviar{
-    width: 30%;
-    padding: 15px 0;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    background: rgb(119, 102, 70);
-    border: none;
-    border-radius: 5px;
-    transition: 1s all;
-    cursor: pointer;
-}
-
-/*Fin Recien Agregado*/
-.logo{
+.logo {
     background: #400000;
     height: 100%;
     width: 70px;
 }
-body{
+
+body {
     width: 100%;
     letter-spacing: 0.03em;
     line-height: 1.6;
@@ -29,123 +16,195 @@ body{
 }
 
 /* Texto css*/
-h1{
+h1 {
     font-size: 34px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
-h3,h4,h5{
+
+h3,
+h4,
+h5 {
     font-family: 'Open Sans', sans-serif;
 }
-p,a{
+
+p,
+a {
     font-family: 'Lato', sans-serif;
 }
 
-h3{
+h3 {
     font-size: 25px;
 }
 
-h4, label, p{
+h4,
+label,
+p {
     font-size: 21px;
 }
+
 /* Fin de Texto Css*/
 /*Formulario*/
+aside {
+    display: flex;
+}
 
-.formulario{
+@keyframes carta {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.formulario {
+    background: linear-gradient(#FFFFFF, #F2A84A);
     padding: 10px;
     border-style: solid;
     border-radius: 15px;
     border-color: #000000;
     margin: 5px;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    animation-name: carta;
+    animation-duration: 5s;
 }
-.input-text{
+
+.input-text {
     display: flex;
     width: 30%;
+    resize: none;
+    height: 2em;
 }
-.input-text, textarea{
+
+textarea {
     resize: none;
 }
-form label{
+
+form label,
+form legend {
+    margin-top: 5px;
     display: block;
 }
-.select-input{
+
+.select-input {
     width: 30%;
+    height: 2em;
+    margin-bottom: 5px;
 }
-.enviar{
+
+.enviar {
+    width: 30%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: rgb(119, 102, 70);
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
     margin-top: 10px;
-    align-self: center;
+
     display: flex;
 }
+
 /*Division*/
-.division{
+.division {
     display: flex;
     margin: 20px;
     justify-content: center;
-    
+
 }
-.division-contenedor{
+
+.division-contenedor {
     display: flex;
     padding: 5%;
     justify-content: space-between;
     width: 100%;
 }
 
-.div1{
+.div1 {
     gap: 1em;
 }
 
-.division-frase{
+.division-frase {
     text-align: center;
     font-size: 21px;
     color: #FFFFFF;
 }
-.division-imagen{
+
+.division-imagen {
     height: 120px;
     width: auto;
 }
-#uno{
+
+#uno {
     width: 134px;
     height: 120px;
     border-radius: 35px;
 }
-#dos{
+
+#dos {
     width: 135px;
     height: 120px;
     border-radius: 35px;
 }
-#tres{
+
+#tres {
     background-color: #FFFFFF;
     width: 135px;
     height: 120px;
     border-radius: 35px;
 }
-.l-rs{
+
+.l-rs {
     text-decoration: none;
     align-items: center;
     color: #FFFFFF;
 }
-.l-rs:hover{
+
+.l-rs:hover {
     color: aqua;
 }
+
 /*Fin Division*/
 /* Mapa */
-.mapa{
-    margin: 15px;
-    padding: 2px;
+.contenedor-mapa {
+    width: 50%;
+    background: radial-gradient(#FFFFFF, #F2A84A);
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #000000;
+    animation: carta 5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.mapa {
+    margin: 10px;
+    padding: 5px;
     display: flex;
     align-items: flex-end;
+    height: 50em;
 }
-.mp-rs{
+
+.sitio {
+    height: 100%;
+}
+
+.mp-rs {
     width: 150px;
     height: 150px;
-    
 }
-.txt-mapa{
-    width: 12%;
+
+.txt-mapa {
     font-size: 21px;
     font-weight: bold;
     text-align: justify;
 }
+
 /* Fin Mapa*/
 /* Footer */
 .pie-pagina {
@@ -184,10 +243,11 @@ form label{
     align-items: center;
 }
 
-.ico-rs{
+.ico-rs {
     width: 50px;
     height: 50px;
     margin: 0 10px;
     padding: 3px;
 }
+
 /*Fin Footer*/
