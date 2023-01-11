@@ -1,30 +1,16 @@
-/*Recien agregado*/
-.container-fluid {
-    background: #400000;
-    justify-content: space-between;
-    opacity: 0.95;
+.enviar{
+    width: 30%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: rgb(119, 102, 70);
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
 }
-.navbar-toggler-icon{
-    background-color: #ffffff;
-    opacity: 0.95;
-}
-.bg-light, .dropdown-menu{
-    background-color: #400000!important;
-    opacity: 0.95;
-}
-.navbar-nav, .nav-link, .dropdown-item{
-    color: #fff!important;
-    text-align: center;
-}
-#centrar{
-    width: 50%;
-    margin-right: 25%;
-    margin-left: 25%;  
-}
-.card{
-    background-color: #FFB333;
-    opacity: 0.95;
-}
+
 /*Fin Recien Agregado*/
 .logo{
     background: #400000;
@@ -66,13 +52,11 @@ h4, label, p{
 /*Formulario*/
 
 .formulario{
-    padding: auto;
-    margin: 2em;
+    padding: 10px;
+    border-style: solid;
     border-radius: 15px;
     border-color: #000000;
-    border-width: 2em;
     margin: 5px;
-    align-content: center;
 }
 .input-text{
     display: flex;
@@ -81,18 +65,88 @@ h4, label, p{
 .input-text, textarea{
     resize: none;
 }
+form label{
+    display: block;
+}
 .select-input{
     width: 30%;
 }
 .enviar{
+    margin-top: 10px;
     align-self: center;
     display: flex;
 }
 /*Division*/
 .division{
     display: flex;
-    margin: 15px;
+    margin: 20px;
+    justify-content: center;
+    
 }
+.division-contenedor{
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.div1{
+    gap: 1em;
+}
+
+.division-frase{
+    text-align: center;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+.division-imagen{
+    height: 120px;
+    width: auto;
+}
+#uno{
+    width: 134px;
+    height: 120px;
+    border-radius: 35px;
+}
+#dos{
+    width: 135px;
+    height: 120px;
+    border-radius: 35px;
+}
+#tres{
+    background-color: #FFFFFF;
+    width: 135px;
+    height: 120px;
+    border-radius: 35px;
+}
+.l-rs{
+    text-decoration: none;
+    align-items: center;
+    color: #FFFFFF;
+}
+.l-rs:hover{
+    color: aqua;
+}
+/*Fin Division*/
+/* Mapa */
+.mapa{
+    margin: 15px;
+    padding: 2px;
+    display: flex;
+    align-items: flex-end;
+}
+.mp-rs{
+    width: 150px;
+    height: 150px;
+    
+}
+.txt-mapa{
+    width: 12%;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: justify;
+}
+/* Fin Mapa*/
 /* Footer */
 .pie-pagina {
     background-color: #400000;
@@ -129,3 +183,11 @@ h4, label, p{
     justify-content: center;
     align-items: center;
 }
+
+.ico-rs{
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    padding: 3px;
+}
+/*Fin Footer*/
