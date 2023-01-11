@@ -130,6 +130,17 @@ a{
     font-weight: 300;
 }
 
+.btn{
+    display: inline-block;
+    background-color: #e4710575;
+    padding: 5px;
+}
+
+.btn:hover{
+    background-color: #e47105;
+    scale: 1.2;
+}
+
 .Contenedor-enlaces{
     width: 100%;
     max-width: 1800px;
@@ -181,7 +192,8 @@ a{
 .ico-enlace{
     width: 40px;
     height: 40px;
-    margin-left: 10px;
+    margin-left: 5px;
+    padding: 5px;
 }
 
 .pie-pagina{
