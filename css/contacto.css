@@ -1,0 +1,131 @@
+/*Recien agregado*/
+.container-fluid {
+    background: #400000;
+    justify-content: space-between;
+    opacity: 0.95;
+}
+.navbar-toggler-icon{
+    background-color: #ffffff;
+    opacity: 0.95;
+}
+.bg-light, .dropdown-menu{
+    background-color: #400000!important;
+    opacity: 0.95;
+}
+.navbar-nav, .nav-link, .dropdown-item{
+    color: #fff!important;
+    text-align: center;
+}
+#centrar{
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;  
+}
+.card{
+    background-color: #FFB333;
+    opacity: 0.95;
+}
+/*Fin Recien Agregado*/
+.logo{
+    background: #400000;
+    height: 100%;
+    width: 70px;
+}
+body{
+    width: 100%;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #FFB333;
+    opacity: 0.95;
+}
+
+/* Texto css*/
+h1{
+    font-size: 34px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+h3,h4,h5{
+    font-family: 'Open Sans', sans-serif;
+}
+p,a{
+    font-family: 'Lato', sans-serif;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4, label, p{
+    font-size: 21px;
+}
+/* Fin de Texto Css*/
+/*Formulario*/
+
+.formulario{
+    padding: auto;
+    margin: 2em;
+    border-radius: 15px;
+    border-color: #000000;
+    border-width: 2em;
+    margin: 5px;
+    align-content: center;
+}
+.input-text{
+    display: flex;
+    width: 30%;
+}
+.input-text, textarea{
+    resize: none;
+}
+.select-input{
+    width: 30%;
+}
+.enviar{
+    align-self: center;
+    display: flex;
+}
+/*Division*/
+.division{
+    display: flex;
+    margin: 15px;
+}
+/* Footer */
+.pie-pagina {
+    background-color: #400000;
+    color: #fff;
+    padding: 10px;
+    margin-top: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+
+.pie-pagina .logo-pie {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .logo-pie img {
+    width: 180px;
+}
+
+.txt-footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

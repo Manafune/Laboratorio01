@@ -21,11 +21,15 @@ body{
     padding: 6px;
     box-sizing: border-box;
 }
+/*Subtitulo*/
+.tipo{
+    text-align: center;
+}
+/*Fin Subtitulo*/
 /*Izquierda div y derecha div css*/
 .post{
     display: flex;
     padding: 10%;
-    align-self: center;
 }
 
 .pl{
@@ -162,7 +166,7 @@ h4{
 /* Video css*/
 .vid{
     width: auto;
-    height: 94%;
+   
 }
 /* Fin Video css*/
 

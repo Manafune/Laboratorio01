@@ -22,7 +22,7 @@
                 <img src="img/logo/Logo_sin_slogan-removebg-preview.png" alt="" class="logo">
             </a>
             <ul class="menu">
-                <li><a href="">Inicio</a></li>
+                <li><a href="index.html">Inicio</a></li>
                 <li><a href="instrumentos.html">Instrumentos</a></li>
                 <li><a href="historia.html">Historia</a></li>
                 <li><a class="active" href="contactos.html">Contactos</a></li>
@@ -38,17 +38,17 @@
                 <br>
                 <div class="col-md-12">
                     <label for="Nombres" class="form-label">Nombre y Apellidos</label>
-                    <input type="text" class="input-text" name="Nombres" id="Nombres" required
+                    <input type="text" class="input-text" required name="Nombres" id="Nombres" 
                         placeholder="Nombre y Apellidos">
                 </div>
                 <div class="col-md-12">
                     <label for="Telefono" class="form-label">N° Telefóno</label>
-                    <input type="tel" name="Telefono" id="Telefono" class="input-text" required
+                    <input type="tel" name="Telefono" required id="Telefono" class="input-text" 
                         placeholder="(XX) XXXX XXXX">
                 </div>
                 <div class="col-md-12">
                     <label for="Correo" class="form-label">Correo</label>
-                    <input type="email" name="Correo" id="Correo" class="input-text" required
+                    <input type="email" name="Correo" required id="Correo" class="input-text" 
                         placeholder="example@host.com">
                 </div>
                 <div class="col-md-12">
@@ -73,7 +73,7 @@
                     <fieldset>
                         <legend>¿En cual horario le gustaria recibir nuestro mensaje?</legend>
                         <select class="select-input">
-                            <option disabled>Elija una Opción</option>
+                            <option selected disabled>Elija una Opción</option>
                             <option value="1">Mañana</option>
                             <option value="2">Tarde</option>
                             <option value="3">Noche</option>
@@ -81,40 +81,41 @@
                     </fieldset>
                 </div>
                 <div class="col-md-12">
-                    <input class="enviar" type="button" value="Enviar">
+                    <input class="enviar" type="submit" value="Enviar">
                 </div>
             </form>
         </section>
 
         <section class="division">
-            <div>
-                <div>
-                    <img src="" alt="Imagen de facebook">
-                    <p>Facebook</p>
+            <div class="division-contenedor">
+                <div class="div1">
+                    <img class="division-imagen" id="uno" src="img/Instrumentos/Facebook.png" alt="Imagen de facebook">
+                    <p class="division-frase">Facebook</p>
                     <a class="l-rs" href="#">Link de Facebook</a>
                 </div>
-                <div>
-                    <img src="" alt="Imagen de Instagram">
-                    <p>Instagram</p>
+                <div class="div1">
+                    <img class="division-imagen" id="dos" src="img/Instrumentos/Instagram.png" alt="Imagen de Instagram">
+                    <p class="division-frase">Instagram</p>
                     <a class="l-rs" href="#">Link de Instagram</a>
                 </div>
-                <div>
-                    <img src="" alt="Imagen del número de Whatsapp">
-                    <p>Whatsapp</p>
-                    <p class="l-rs">555-5555</p>
+                <div class="div1">
+                    <img class="division-imagen" id="tres" src="img/Instrumentos/Whatsapp.png" alt="Imagen de Whatsapp">
+                    <p class="division-frase">Whatsapp</p>
+                    <a class="l-rs" href="#">Link de Whatsapp</a>
+                     
                 </div>
             </div>
         </section>
 
-        <section class="mapa">
-            <div>
+        <section>
+            <div class="mapa">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.855033867364!2d-77.03271235956528!3d-12.122069643358802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c81903e94aed%3A0x4b09800509f16648!2sCa.%20Lima%20101%2C%20Miraflores%2015074!5e0!3m2!1ses-419!2spe!4v1672930819994!5m2!1ses-419!2spe"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <img src="" alt="Imagen de google maps">
-                <h4>Cl. Lima 101,</h4>
-                <h4>Miraflores 15074</h4>
+                <img class="mp-rs" src="img/Instrumentos/maps.png" alt="Imagen de google maps">
+                <h4 class="txt-mapa">Cl. Lima 101,
+                    Miraflores 15074</h4>
             </div>
 
         </section>
