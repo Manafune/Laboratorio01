@@ -74,15 +74,9 @@ aside {
 
 .input-text {
     display: flex;
-    width: 90%;
-    resize: none;
-    height: 2em;
+    width: 30%;
 }
-#Mensaje{
-    height: 250px;
-}
-.input-text textarea {
-    height:250px ;
+.input-text, textarea{
     resize: none;
 }
 
