@@ -198,6 +198,9 @@ h4{
     text-align: justify;
     color: bisque;
 }
+.card-body{
+    color: #fff;
+}
 .card-footer{
     text-align: end;
 }
