@@ -32,33 +32,6 @@ body{
     padding: 10%;
 }
 
-.pl{
-    position: relative;
-    width: 50%;
-    margin-right: 2%;
-}
-
-.pr{
-    position: relative;
-    width: 50%;
-    margin-left: 2%;
-}
-
-/*Fin de derecha e izquierda css*/
-
-/* Texto del Carrusel css*/
-.de{
-    color: darkgrey;
-    float: left;
-    font-size: 18px;
-}
-
-.iz{
-    color: royalblue;
-    float: right;
-    font-size: 18px;
-}
-/* Fin del texto de Carrusel css*/
 
 /* Texto css*/
 h1{
@@ -214,3 +187,20 @@ h4{
     padding: 3px;
 }
 /*Fin Footer*/
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+     rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+     rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+     rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+     rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border: 2px solid #400000;
+    text-align: justify;
+    color: bisque;
+}
+.card-footer{
+    text-align: end;
+}
+.text-muted{
+    color: #FFFFFF !important;
+}
