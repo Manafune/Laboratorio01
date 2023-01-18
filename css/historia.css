@@ -105,3 +105,12 @@ p {
 .col-4 {
     text-align: center !important;
 }
+
+@media (max-width: 800px) {
+    .pie-pagina{
+        display: block;
+    }
+    .pie-pagina .logo-pie {
+        margin-bottom: 10px;
+    }
+}
