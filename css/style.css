@@ -13,6 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #FFB333;
 }
 h1{
     text-align: center;
@@ -129,6 +130,17 @@ a{
     font-weight: 300;
 }
 
+.btn{
+    display: inline-block;
+    background-color: #e4710575;
+    padding: 5px;
+}
+
+.btn:hover{
+    background-color: #e47105;
+    scale: 1.2;
+}
+
 .Contenedor-enlaces{
     width: 100%;
     max-width: 1800px;
@@ -138,12 +150,24 @@ a{
     justify-content: center;
     margin: auto;
 }
-
+/*Key Frame*/
+@keyframes escalar{
+    from{
+        transform: scale(0.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+/*Fin Key Frame*/
 .Contenedor-enlaces .card-enlace{
     width: 330px;
     height: 430px;
     margin: 50px 80px;
     text-align: center;
+    animation-name: escalar;
+    animation-iteration-count: 3;
+    animation-duration: 5s;
 }
 
 .img-enlace{
@@ -153,7 +177,7 @@ a{
 }
 
 .txt-enlace{
-    background-color: rgba(0, 0, 0, 0.199);
+    background-color: rgba(135, 134, 134, 0.799);
     border-radius: 50px;
     display: flex;
     align-items: center;
@@ -168,7 +192,8 @@ a{
 .ico-enlace{
     width: 40px;
     height: 40px;
-    margin-left: 10px;
+    margin-left: 5px;
+    padding: 5px;
 }
 
 .pie-pagina{

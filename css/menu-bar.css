@@ -9,10 +9,12 @@
 nav{
     background: #4D0000;
     opacity: 0.95;
-    height: 90px;
+    height: 100px;
     width: 100%;
 }
-
+header{
+    height: 100px;
+}
 .enlace{
     position: absolute;
     padding: 15px 50px;
@@ -27,6 +29,7 @@ nav{
 nav ul{
     float: right;
     margin-right: 20px;
+    margin-top: 7px;
 }
 
 nav ul li{
@@ -41,6 +44,7 @@ nav ul li a{
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 nav ul li ol {
@@ -68,7 +72,7 @@ nav ul li ol li a {
     height: 25%;
     text-transform: uppercase;
     font-size: 18px;
-    
+    text-decoration: none;
 }
 
 li a.active, li a:hover{
