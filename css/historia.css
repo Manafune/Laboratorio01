@@ -113,4 +113,7 @@ p {
     .pie-pagina .logo-pie {
         margin-bottom: 10px;
     }
+    .row{
+        display: block;
+    }
 }
