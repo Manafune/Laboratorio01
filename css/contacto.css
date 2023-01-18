@@ -260,3 +260,11 @@ form legend {
     width: 50%;
 }
 }
+@media (max-width: 800px) {
+    .pie-pagina{
+        display: block;
+    }
+    .pie-pagina .logo-pie {
+        margin-bottom: 10px;
+    }
+}
