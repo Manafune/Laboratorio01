@@ -207,3 +207,77 @@ h4{
 .text-muted{
     color: #FFFFFF !important;
 }
+@media (min-width: 254px) and (max-width: 374px) {
+    .moved{
+        display: block;
+    }
+    .resl-contact,.resl-history,.text-button{
+        width: 100%;
+    }
+    .text-button{
+        margin-bottom: 15px;
+    }
+    .izq, .der{
+        margin-bottom: 5px;
+    }
+    .pie-pagina{
+        display: block;
+        text-align: center;
+    }
+}
+@media (min-width: 375px) and (max-width: 540px) {
+    .moved{
+        display: block;
+    }
+    .resl-contact,.resl-history,.text-button{
+        width: 100%;
+    }
+    .text-button{
+        margin-bottom: 15px;
+    }
+    .izq, .der{
+        margin-bottom: 5px;
+    }
+    .pie-pagina{
+        display: block;
+    }
+}
+@media (min-width: 541px) and (max-width: 752px) {
+    .moved{
+        display: block;
+    }
+    .resl-contact,.resl-history,.text-button{
+        width: 100%;
+    }
+    .text-button{
+        margin-bottom: 15px;
+    }
+    .izq, .der{
+        margin-bottom: 5px;
+    }
+    .pie-pagina{
+        display: block;
+    }
+}
+@media (min-width: 753px) and (max-width: 1024px) {
+    .moved{
+        display: block;
+    }
+    .resl-contact,.resl-history,.text-button{
+        width: 100%;
+    }
+    .text-button{
+        margin-bottom: 15px;
+    }
+    .izq, .der{
+        margin-bottom: 5px;
+    }
+    .pie-pagina{
+        display: block;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1056px) {
+    .pie-pagina{
+        display: block;
+    }
+}
