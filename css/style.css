@@ -42,31 +42,6 @@ p,a{
     width: 100%;
     height: 426px;
 }
-/* Contenedor de el bienvenido,mision y vision */
-.intro, .mision_vision{
-    width: 500px;
-    height: 300px;
-}
-.Caja1{
-    width: 100%;
-    margin-top: 20px;
-}
-.Caja2{
-    width: 100%;
-}
-/* Parte de imagen y texto de taki Kapchiy */
-.articles1 {
-    width:58.5%;
-    margin-top:70px;
-    float:right;
-    padding:20px
-}
-
-.img_article1{
-    width:40%;
-    box-sizing:border-box;
-    padding: 20px;
-}
 /* Carrusel para que se muestre en el centro */
 .carrusel{
     width: 50%;
@@ -78,19 +53,6 @@ a{
     font-weight: bold;
 }
 
-.articles2{
-    width:58.5%;
-    margin-top:30px;
-    float:left;
-    padding:20px
-}
-
-.img_article2{
-    width:40%;
-    float:left;
-    padding:20px;
-    box-sizing:border-box;
-}
 /* Contenedor de las cards y estilos para que se vean responsive */
 .container{
     width: 100%;
