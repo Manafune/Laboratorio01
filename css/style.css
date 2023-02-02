@@ -42,31 +42,6 @@ p,a{
     width: 100%;
     height: 426px;
 }
-/* Contenedor de el bienvenido,mision y vision */
-.intro, .mision_vision{
-    width: 500px;
-    height: 300px;
-}
-.Caja1{
-    width: 100%;
-    margin-top: 20px;
-}
-.Caja2{
-    width: 100%;
-}
-/* Parte de imagen y texto de taki Kapchiy */
-.articles1 {
-    width:58.5%;
-    margin-top:70px;
-    float:right;
-    padding:20px
-}
-
-.img_article1{
-    width:40%;
-    box-sizing:border-box;
-    padding: 20px;
-}
 /* Carrusel para que se muestre en el centro */
 .carrusel{
     width: 50%;
@@ -78,19 +53,6 @@ a{
     font-weight: bold;
 }
 
-.articles2{
-    width:58.5%;
-    margin-top:30px;
-    float:left;
-    padding:20px
-}
-
-.img_article2{
-    width:40%;
-    float:left;
-    padding:20px;
-    box-sizing:border-box;
-}
 /* Contenedor de las cards y estilos para que se vean responsive */
 .container{
     width: 100%;
@@ -246,68 +208,23 @@ a{
     .intro, .mision_vision{
         width: 100%;
     }
-    .articles1{
-        margin-top: 30px;
-    }
 }
 @media (max-width: 2560px) {
     .intro, .mision_vision{
         width: 100%;
-    }
-    .articles1{
-        margin-top: 30px;
     }
 }
 @media (max-width: 1920px) {
     .intro, .mision_vision{
         width: 100%;
     }
-    .articles1{
-        margin-top: 30px;
-    }
-}
-@media (max-width: 1525px) {
-    .articles1{
-        margin-top: 20px;
-    }
-    .articles2{
-        margin-top: 10px;
-    }
-}
-@media (max-width: 1185px) {
-    .articles1{
-        margin-top: 10px;
-    }
-    .articles2{
-        margin-top: 0px;
-    }
 }
 @media (max-width: 1080px) {
     .intro, .mision_vision {
         height: 400px;
     }
-    .articles2{
-        margin-top: 30px;
-    }
 }
 @media (max-width: 800px) {
-    .articles1{
-        width: auto;
-        float: none;
-        margin-top: 0px;
-    }
-    .img_article1{
-        width: auto;
-        float: none;
-    }
-    .articles2{
-        width: auto;
-        float: none;
-    }
-    .img_article2{
-        width: auto;
-        float: none;
-    }
     .pie-pagina{
         display: block;
     }
