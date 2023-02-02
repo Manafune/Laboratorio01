@@ -208,68 +208,23 @@ a{
     .intro, .mision_vision{
         width: 100%;
     }
-    .articles1{
-        margin-top: 30px;
-    }
 }
 @media (max-width: 2560px) {
     .intro, .mision_vision{
         width: 100%;
-    }
-    .articles1{
-        margin-top: 30px;
     }
 }
 @media (max-width: 1920px) {
     .intro, .mision_vision{
         width: 100%;
     }
-    .articles1{
-        margin-top: 30px;
-    }
-}
-@media (max-width: 1525px) {
-    .articles1{
-        margin-top: 20px;
-    }
-    .articles2{
-        margin-top: 10px;
-    }
-}
-@media (max-width: 1185px) {
-    .articles1{
-        margin-top: 10px;
-    }
-    .articles2{
-        margin-top: 0px;
-    }
 }
 @media (max-width: 1080px) {
     .intro, .mision_vision {
         height: 400px;
     }
-    .articles2{
-        margin-top: 30px;
-    }
 }
 @media (max-width: 800px) {
-    .articles1{
-        width: auto;
-        float: none;
-        margin-top: 0px;
-    }
-    .img_article1{
-        width: auto;
-        float: none;
-    }
-    .articles2{
-        width: auto;
-        float: none;
-    }
-    .img_article2{
-        width: auto;
-        float: none;
-    }
     .pie-pagina{
         display: block;
     }
