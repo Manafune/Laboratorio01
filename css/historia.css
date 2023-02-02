@@ -23,6 +23,10 @@ h2 {
 
 }
 
+h5 {
+    text-align: center;
+}
+
 img {
     width: 300px;
     height: 330px;
@@ -77,6 +81,15 @@ img {
     padding: 3px;
 }
 
+@media (max-width: 800px) {
+    .pie-pagina{
+        display: block;
+    }
+    .pie-pagina .logo-pie {
+        margin-bottom: 10px;
+    }
+}
+
 button {
     text-align: center;
     border: none;
@@ -104,4 +117,42 @@ p {
 
 .col-4 {
     text-align: center !important;
+}
+
+.lin {
+    border-radius: 50%;
+    margin: 10px;
+    border: 3px solid hwb(27 0% 0%);
+}
+
+.agrandar{
+    margin: 10px;
+}
+
+.agrandar:hover {
+    animation-name: agrandar;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes agrandar {
+    from {
+        transform: scale(1.0);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.bn {
+    height: 60px;
+    width: 300px;
+    border-radius: 220px;
+}
+
+.img-f {
+    width: 50px;
+    height: 50px;
 }
