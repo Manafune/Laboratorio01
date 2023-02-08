@@ -54,7 +54,7 @@ a{
 }
 
 /* Contenedor de las cards y estilos para que se vean responsive */
-.container{
+.container-card{
     width: 100%;
     max-width: 1200px;
     height: auto;
@@ -64,7 +64,7 @@ a{
     margin: auto;
 }
 
-.container .card{
+.container-card .card{
     width: 430px;
     height: 430px;
     border-radius: 8px;
@@ -75,33 +75,33 @@ a{
     transition: all 0.25s;
 }
 /* Efecto cuando ponen el mouse encima del card */
-.container .card:hover{
+.container-card .card:hover{
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
-.container .card .img-card{
+.container-card .card .img-card-st{
     width: 430px;
     height: 220px;
 }
 
-.container .card h2{
+.container-card .card h2{
     font-weight: 600;
 }
 
-.container .card p{
+.container-card .card p{
     padding: 0 1rem;
     font-size: 16px;
     font-weight: 300;
 }
 /* Boton en la card */
-.btn{
+.boton-card{
     display: inline-block;
     background-color: #e4710575;
     padding: 5px;
 }
 
-.btn:hover{
+.boton-card:hover{
     background-color: #e47105;
     scale: 1.2;
 }
@@ -237,5 +237,13 @@ a{
     }
     .Contenedor-enlaces .card-enlace {
         margin: auto;
+    }
+    .container-card .card{
+        height: 450px;
+    }
+}
+@media (max-width:400px){
+    .container-card .card{
+        height: auto;
     }
 }
