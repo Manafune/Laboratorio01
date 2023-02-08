@@ -50,12 +50,23 @@ h4{
 /*Flexeando los aside*/
 .post{
     display: flex;
-    padding: 10%;
+    padding: 5%;
 }
+
 /*Fin del aside*/
 
+.card-group{
+    gap: 15px;
+}
 
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
 .card:hover{
+    transform: translateY(-15px);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
      rgba(0, 0, 0, 0.12) 0px -12px 30px, 
      rgba(0, 0, 0, 0.12) 0px 4px 6px, 
