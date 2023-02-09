@@ -32,6 +32,10 @@ p,a{
     font-size: 1em;
     text-align: justify;
 }
+.nr{
+    margin-left: 15px;
+    margin-right:15px ;
+}
 /* Estilos para el banner */
 .cont_banner{
     width: 100%;
