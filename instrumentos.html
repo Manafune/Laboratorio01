@@ -8,35 +8,49 @@
   <title>Instrumentos</title>
   <link rel="shortcut icon" href="img/inicio/LOGO x4.jpeg" type="image/x-icon">
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="stylesheet" href="css/menu-bar.css">
   <link rel="stylesheet" href="css/Instrumentos.css">
 </head>
 
 <body>
   <header>
-    <nav>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fa-solid fa-bars"></i>
-      </label>
-      <a href="index.html" class="enlace">
-        <img src="img/logo/Logo_sin_slogan-removebg-preview.png" alt="" class="logo">
-      </a>
-      <ul class="menu">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a class="active" href="instrumentos.html">Instrumentos</a>
-          <ol>
-            <li><a href="#Aerofonos">Aerofonos</a></li>
-            <li><a href="#Cordófonos">Cordófonos</a></li>
-            <li><a href="#Idiófonos">Idiófonos</a></li>
-            <li><a href="#Membranofonos">Membranofonos</a></li>
-          </ol>
-        </li>
-        <li><a href="historia.html">Historia</a></li>
-        <li><a href="contactos.html">Contactos</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo/Logo_sin_slogan-removebg-preview.png" alt="" height="auto" width="100px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Instrumentos
+                </a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Aerofonos</a></li>
+                <li><a class="dropdown-item" href="#">Cordofonos</a></li>
+                <li><a class="dropdown-item" href="#">Idiofonos</a></li>
+                <li><a class="dropdown-item" href="#">Membranofonos</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="historia.html">Historia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contactos.html">Contactanos</a>
+            </li>
+            </ul>
+        </div>
+        </div>
     </nav>
-  </header>
+</header>
   <main>
     <h1 class="tipo">Instrumentos Andinos</h1>
     <hr>
@@ -1049,5 +1063,7 @@
 </body>
 <script src="https://kit.fontawesome.com/4edbf8ff12.js" crossorigin="anonymous"></script>
 <script src="js/bootstrap.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </html>
