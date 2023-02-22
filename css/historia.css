@@ -23,16 +23,97 @@ h2 {
 
 }
 
+.tilo {
+    background: #400000;
+    color: white;
+    text-shadow: 1px 1px green;
+    border-radius: 20px;
+}
+
 h5 {
     text-align: center;
 }
 
-img {
-    width: 300px;
-    height: 330px;
+.h-alt {
+    height: 450px !important;
 }
 
-.imgpie {
+#centro {
+    display: grid;
+    justify-content: center;
+}
+
+.res {
+    width: 80%;
+    height: 80%;
+    border-radius: 40px;
+}
+
+button {
+    text-align: center;
+    border: none;
+    background-color: antiquewhite;
+}
+
+.de {
+    background-color: antiquewhite;
+}
+
+p {
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.text-inicial {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.col-3 {
+    text-align: center !important;
+}
+
+.col-4 {
+    text-align: center !important;
+}
+
+.lin {
+    border-radius: 50%;
+    margin: 10px;
+    border: 3px solid hwb(27 0% 0%);
+    height: 330px;
+    width: 300px;
+}
+
+.agrandar{
+    margin: 10px;
+}
+
+.agrandar:hover {
+    animation-name: agrandar;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes agrandar {
+    from {
+        transform: scale(1.0);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.bn {
+    height: 60px;
+    width: 300px;
+    border-radius: 220px;
+}
+
+.img-f {
     width: 50px;
     height: 50px;
 }
@@ -74,78 +155,16 @@ img {
     align-items: center;
 }
 
+.imgpie {
+    width: 50px;
+    height: 50px;
+}
+
 .ico-rs{
     width: 50px;
     height: 50px;
     margin: 0 10px;
     padding: 3px;
-}
-
-button {
-    text-align: center;
-    border: none;
-    background-color: antiquewhite;
-}
-
-.de {
-    background-color: antiquewhite;
-}
-
-p {
-    text-align: justify;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.text-inicial {
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.col-3 {
-    text-align: center !important;
-}
-
-.col-4 {
-    text-align: center !important;
-}
-
-.lin {
-    border-radius: 50%;
-    margin: 10px;
-    border: 3px solid hwb(27 0% 0%);
-}
-
-.agrandar{
-    margin: 10px;
-}
-
-.agrandar:hover {
-    animation-name: agrandar;
-    animation-iteration-count: infinite;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-direction: alternate;
-}
-
-@keyframes agrandar {
-    from {
-        transform: scale(1.0);
-    }
-    to {
-        transform: scale(1.1);
-    }
-}
-
-.bn {
-    height: 60px;
-    width: 300px;
-    border-radius: 220px;
-}
-
-.img-f {
-    width: 50px;
-    height: 50px;
 }
 
 @media (max-width: 800px) {
