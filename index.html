@@ -13,17 +13,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6R1DCHDSM6"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-6R1DCHDSM6');
-    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TPJPW578');</script>
+    <!-- End Google Tag Manager -->
 </head>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPJPW578"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
@@ -172,7 +174,7 @@
         </div>
         <div class="rs">
             <p class="nr">Nuestras Redes Sociales:</p>
-            <a href="http://www.linkedin.com/in/miguel-mq-dv/"><img src="img/iconos/instagram.png" onclick="enviarEvento(event)" alt="instagram/png" class="ico-rs"></a>
+            <a href="https://github.com/Manafune"><img src="img/iconos/instagram.png" alt="instagram/png" target="_blank" class="ico-rs" id="btn-github"></a>
             <a href=""><img src="img/iconos/facebook.png" alt="facebook/png" class="ico-rs"></a>
             <a href=""><img src="img/iconos/whatsapp.png" alt="whatsapp/png" class="ico-rs"></a>
         </div>
@@ -181,19 +183,5 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
-      <script>
-        function enviarEvento(e){
-            e.preventDefault();
-            gtag('event','link',{
-                'debug_mode': true,
-                'event_category': 'rrss',
-                'event_label': 'linkedin'
-            });
-
-            setTimeout(function(){
-                window.location.href = e.target.href;
-            }, 300);
-        }
-      </script>
 </body>
 </html>
